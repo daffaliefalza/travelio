@@ -206,27 +206,26 @@ footer {
 
 /* responsvie */
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   .content-wrapper .container {
     flex-direction: column;
   }
-}
 
-@media (max-width: 750px) {
+  .package .row {
+    display: block;
+    width: 100%;
+  }
+
+  .package .col {
+    width: 100%;
+    margin: 1.2rem 0;
+  }
+
   header .container {
     flex-direction: column;
   }
 
   header .logo {
     margin-bottom: 1rem;
-  }
-
-  header .package .row {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .package .col {
-    width: 100%;
   }
 }
